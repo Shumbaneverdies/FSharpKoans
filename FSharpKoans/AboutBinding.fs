@@ -143,6 +143,7 @@ module ``02: About Binding`` =
         b |> should equal 11
         c |> should equal 25
 
+<<<<<<< HEAD
     (*
         The next test demonstrates *type inference*.
         
@@ -169,6 +170,8 @@ module ``02: About Binding`` =
         z |> should be ofType<float>
         a |> should be ofType<bool>
         b |> should be ofType<char>
+=======
+>>>>>>> 400a467c462aa18eba449909d2de3f0a987d61c5
    
    (*
     What's a pattern?  A pattern is something that expresses the SHAPE of data.  Data may

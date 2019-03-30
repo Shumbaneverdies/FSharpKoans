@@ -16,7 +16,11 @@ module ``05: To iterate is human; to recurse, divine`` =
                 | true -> converge (d+10) c (n+1)
                 | false -> converge (d - 1) c (n+1)
             | true -> n
+<<<<<<< HEAD
         converge 3 10 0 |> should equal 4
+=======
+        converge 3 10 0 |> should equal __
+>>>>>>> 400a467c462aa18eba449909d2de3f0a987d61c5
 
     [<Test>]
     let ``02 Tail recursion stops a stack overflow from occurring`` () =
